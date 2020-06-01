@@ -25,5 +25,11 @@ int main()
 		if (*(ptr+k)<min) min = *(ptr+k);
 	}
 	printf("Min marks are : %d",min);
+	int max=0;
+	for(l=0;l<n;l++)
+	{
+		if (*(ptr+l)>max) max = *(ptr+l);
+	}
+	printf("Max marks are : %d",max);
 	return 0;
 }
