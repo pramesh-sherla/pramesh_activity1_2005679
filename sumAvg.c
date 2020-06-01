@@ -4,7 +4,7 @@ int main()
 	int n;
 	int i,j,k,l;
 	printf("Enter the number of Subjecs : ");scanf("%d",&n);
-	int arr[n];
+	int arr[50];
 	int *ptr;
 	ptr = arr;
 	for(i=0;i<n;i++)
